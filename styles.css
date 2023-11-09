@@ -15,12 +15,11 @@ body
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://assets.nflxext.com/ffe/siteui/vlv3/77d35039-751f-4c3e-9c8d-1240c1ca6188/b089fca3-9f2d-4bb5-a6f0-e5e02c51b06a/MX-es-20231106-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-size: cover;
     background-position: center;
-    padding: 10px 8%;
     background-attachment: fixed;
 }
 
 .logo{
-    width: 10%;
+    width: 13%;
     cursor: pointer;
 }
 
@@ -28,7 +27,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 1vw 12vw 1vw 12vw;
     position: fixed;
 }
 
@@ -38,7 +37,7 @@ nav button{
     background: rgb(219, 0, 0);
     color: rgb(255, 255, 255);
     padding: 7px 20px;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     margin-left: 10px;
     cursor: pointer;
     font-weight: 500;
@@ -49,7 +48,7 @@ nav select{
     margin: 10px;
     padding: 6px 28px 6px 36px;
     color: rgb(255, 255, 255);
-    border: solid 2px rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
     border-radius: 7px;
     background-color: rgba(0,0,0,0.5);
     font-weight: 500;
