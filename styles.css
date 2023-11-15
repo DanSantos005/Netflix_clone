@@ -4,8 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body
-{
+body{
     background: rgb(0, 0, 0)
 }
 
@@ -55,6 +54,7 @@ nav select{
     font-weight: 500;
     font-size: 15px;
 }
+
 .header-content{
     position: absolute;
     /*border: solid red;*/
@@ -65,18 +65,21 @@ nav select{
     margin-top: 30px;
     color:white;
 }
+
 .header-content h1{
     font-size: 60px;
     line-height: 70px;
     width: 70vw;
     font-weight: 600;
 }
+
 .header-content h2{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 400;
 }
+
 .header-content p{
     font-size: 30px;
     margin-top: 25px;
@@ -92,6 +95,7 @@ nav select{
     max-width: inherit;
     align-items:center;
 }
+
 .email-signup input{
     display: block;
     font-size: 20px;
@@ -104,6 +108,7 @@ nav select{
     width: 400px;
     padding: 10px;
 }
+
 .form button{
     align-items: center;
     background: red;
@@ -117,12 +122,14 @@ nav select{
     width: 300px;
     margin-left: 10px;
 }
+
 /*-------------------features--------------*/
 .features{
     padding: 50px 12%;
     /*font-size: 50px;*/
     color: white;
 }
+
 .row{
     display:flex;
     width: 100%;
@@ -131,46 +138,56 @@ nav select{
     padding: 50px 0;
     margin: 1%;
 }
+
 .text-col{
     flex-basis: 50%;
     margin-bottom: 20px;
 }
+
 .text-col h2{
     font-size: 60px;
     margin-bottom: 30px;
 }
+
 .text-col p{
     font-size: 30px;
 }
+
 .img-col{
     flex-basis: 50%;
     margin-bottom: 20px;
 }
+
 .img-col img{
     display:block;
     width:90%;
     margin:auto;
 }
+
 /*--------------------faq---------------*/
 .faq{
     /*padding:10px 12%;*/
     text-align: center;
     font-size: 25px;
 }
+
 .faq h2{
     font-weight: 800;
     font-size: 70px;
 }
+
 .questions{
     margin: 20px auto;
     width: 100%;
     max-width: auto;
 }
+
 .questions li{
     list-style: none;
     width: 100%;
     padding: 5px;
 }
+
 .questions li label{
     display:flex;
     align-items: center;
@@ -182,6 +199,7 @@ nav select{
     cursor: pointer;
     position: relative;
 }
+
 label::after{
     content: "+";
     font-size: 70px;
@@ -189,9 +207,11 @@ label::after{
     right: 20px;
     transition: transform 0.5s;
 }
+
 input[type=checkbox]{
     display: none;
 }
+
 .questions .content{
     background: rgb(48, 48, 48);
     text-align: left;
@@ -200,20 +220,25 @@ input[type=checkbox]{
     overflow: hidden;
     transition: max-height 0.5s, padding 0.5s;
 }
+
 .questions input[type=checkbox]:checked + label + .content{
     max-height: 600px;
     padding: 30px 20px;
 }
+
 .questions input[type=checkbox]:checked + label::after{
     transform: rotate(135deg);
 }
+
 .faq .email-signup{
     /*max-width: 600px;*/
     margin: 20px auto 60px;
 }
+
 .faq small{
     font-size: 25px;
 }
+
 .faq button{
     align-items: center;
     background: red;
@@ -227,13 +252,16 @@ input[type=checkbox]{
     width: 300px;
     margin-left: 10px;
 }
+
 /*------------------footer---------------*/
 footer{
     border-top: 6px solid rgb(51, 51, 51);
 }
+
 footer a{
     color: rgb(172, 170, 170);
 }
+
 footer h2{
     font-size: 18px;
     font-weight: 400;
@@ -241,21 +269,25 @@ footer h2{
     margin-top: 50px;
     color: rgb(172, 170, 170);
 }
+
 footer .col{
     flex-basis: 25%;
     flex-grow: 1;
     margin-bottom: 30px;
 }
+
 footer .col a{
     display: block;
     color:rgb(172, 170, 170);
     font-size: 16px;
     margin-bottom: 20px;
 }
+
 footer .row{
     padding: 0px;
     align-items: flex-start;
 }
+
 footer select{
     display: inline-flex;
     align-items: center;
@@ -267,6 +299,7 @@ footer select{
     font-weight: 500;
     font-size: 15px;
 }
+
 footer p{
     margin-top: 30px;
     margin-bottom: 10px;
